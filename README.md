@@ -1,1 +1,1 @@
-<img src="assets/blackhole-tech.gif" width="500">
+<img src="tech_stack_blackhole_banner.gif" width="500">
