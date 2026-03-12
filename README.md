@@ -1,4 +1,4 @@
-<h1 align="center">Hi I'm Arvy</h1>
+<h1 align="center">Hi, I'm Arvy</h1>
 3rd Year Bachelor of Science in Information Technology
 
 ## TECH STACK
