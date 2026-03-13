@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/arveyy/arveyy/main/assets/arvy_starry_banner.gif" width="1280" height="640">
+  <img src="https://raw.githubusercontent.com/arveyy/arveyy/main/assets/arvy_starry_banner.gif" width="1280" height="250">
 </p>
 3rd Year Bachelor of Science in Information Technology
 
