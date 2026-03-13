@@ -1,4 +1,6 @@
-<h1 align="center">Hi, I'm Arvy</h1>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/arveyy/arveyy/main/assets/arvy_starry_banner.gif" width="1280" height="640">
+</p>
 3rd Year Bachelor of Science in Information Technology
 
 ## TECH STACK
