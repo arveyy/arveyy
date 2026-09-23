@@ -33,7 +33,7 @@
 
 ##
 
-![Typing SVG](https://readme-stats-github.pages.dev/api/typing?lines=Code.%20Create.%20Repeat.&theme=dark&color=%23ffffff&particleColor=%23000000&background=%236f6767)
+![Typing SVG](https://readme-stats-github.pages.dev/api/typing?lines=Code.%20Create.%20Repeat.&theme=shadow&color=%23eeeeee&particleColor=%23333333&background=%230f0f0f)
 
 <div align="center">
   <img width="100%" src="./assets/Arvy_Sabalande_Starry_Night_GITHUB_OUTRO_300px(1).svg" alt="Arvy Sabalande"/>
