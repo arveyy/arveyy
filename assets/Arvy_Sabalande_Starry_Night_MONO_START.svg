@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#050505"/><stop offset=".32" stop-color="#171717"/>
+    <stop offset=".62" stop-color="#3b3b3b"/><stop offset="1" stop-color="#090909"/>
+  </linearGradient>
+  <radialGradient id="moonGlow"><stop stop-color="#fff" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+  <linearGradient id="silver"><stop stop-color="#777"/><stop offset=".5" stop-color="#f4f4f4"/><stop offset="1" stop-color="#8b8b8b"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="8"/></filter>
+  <mask id="waveFadeBottom">
+    <rect width="900" height="242" fill="white"/>
+    <path d="M0 248 C75 224 135 270 225 247 S390 225 485 250 S650 275 730 247 S835 226 900 244 L900 300 L0 300Z" fill="black"/>
+  </mask>
+</defs>
+
+<rect width="900" height="300" fill="url(#sky)"/>
+
+<!-- monochrome swirling brush-stroke sky -->
+<g fill="none" stroke-linecap="round">
+  <path d="M-40 102 C80 30 195 174 325 104 S600 30 940 102"
+        stroke="#343434" stroke-width="46" opacity=".9">
+    <animateTransform attributeName="transform" type="rotate"
+      values="-1 450 115;1 450 115;-1 450 115" dur="9s" repeatCount="indefinite"/>
+  </path>
+  <path d="M-40 139 C95 70 205 202 345 130 S615 66 945 143"
+        stroke="#5b5b5b" stroke-width="28" opacity=".9">
+    <animateTransform attributeName="transform" type="rotate"
+      values="1 450 140;-1 450 140;1 450 140" dur="7s" repeatCount="indefinite"/>
+  </path>
+  <path d="M-30 70 C105 145 190 7 320 77 S570 158 940 62"
+        stroke="#1c1c1c" stroke-width="20">
+    <animateTransform attributeName="transform" type="rotate"
+      values="0 450 80;2 450 80;0 450 80;-2 450 80;0 450 80" dur="11s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- silver Van-Gogh-like curling strokes -->
+  <path d="M35 177 C145 95 215 226 310 154 C385 97 455 115 505 165 C558 218 645 202 728 133"
+        stroke="url(#silver)" stroke-width="5" opacity=".9">
+    <animateTransform attributeName="transform" type="rotate"
+      values="0 450 150;2 450 150;0 450 150;-2 450 150;0 450 150" dur="8s" repeatCount="indefinite"/>
+  </path>
+  <path d="M-20 205 C115 145 180 255 300 190 S510 150 615 203 S790 228 930 173"
+        stroke="#bdbdbd" stroke-width="3" opacity=".7"/>
+</g>
+
+<!-- stars -->
+<g fill="#fff">
+  <circle cx="72" cy="42" r="2"/><circle cx="126" cy="83" r="3"/>
+  <circle cx="188" cy="47" r="2"/><circle cx="238" cy="98" r="2"/>
+  <circle cx="294" cy="34" r="3"/><circle cx="347" cy="75" r="2"/>
+  <circle cx="408" cy="45" r="2"/><circle cx="462" cy="92" r="3"/>
+  <circle cx="518" cy="38" r="2"/><circle cx="571" cy="67" r="2"/>
+  <circle cx="628" cy="35" r="3"/><circle cx="682" cy="87" r="2"/>
+  <circle cx="742" cy="46" r="2"/><circle cx="806" cy="76" r="3"/>
+  <circle cx="856" cy="37" r="2"/>
+  <g stroke="#fff" stroke-width="1" opacity=".8">
+    <path d="M170 64v16M162 72h16"/><path d="M600 59v22M589 70h22"/>
+    <path d="M755 94v22M744 105h22"/>
+  </g>
+  <circle cx="170" cy="72" r="5"><animate attributeName="r" values="4;8;4" dur="2.4s" repeatCount="indefinite"/></circle>
+  <circle cx="600" cy="70" r="6"><animate attributeName="r" values="5;9;5" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="755" cy="105" r="5"><animate attributeName="r" values="4;7;4" dur="2.1s" repeatCount="indefinite"/></circle>
+</g>
+
+<!-- monochrome moon -->
+<circle cx="775" cy="166" r="50" fill="url(#moonGlow)" filter="url(#blur)"/>
+<circle cx="775" cy="166" r="20" fill="#f4f4f4"/>
+<circle cx="768" cy="159" r="4" fill="#bdbdbd"/>
+<circle cx="783" cy="171" r="3" fill="#c8c8c8"/>
+
+<!-- text -->
+<g text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
+  <text x="450" y="133" font-size="46" font-weight="700"
+        fill="#fff" stroke="#050505" stroke-width="2" paint-order="stroke">
+    Arvy Sabalande
+    <animate attributeName="opacity" values="0;1;1;0;0"
+      keyTimes="0;.16;.78;.94;1" dur="8s" repeatCount="indefinite"/>
+  </text>
+  <text x="450" y="166" font-size="18" font-weight="600" letter-spacing=".7"
+        fill="#ddd">
+    Turning Caffeine into Code
+    <animate attributeName="opacity" values="0;1;1;0;0"
+      keyTimes="0;.22;.76;.94;1" dur="8s" repeatCount="indefinite"/>
+  </text>
+</g>
+
+<!-- Wavy end / transparent fade -->
+<g mask="url(#waveFadeBottom)">
+  <path d="M-20 257 C75 222 145 280 235 246 S410 220 510 259 S720 290 930 238"
+        fill="none" stroke="#111" stroke-width="58">
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0;18 -3;0 0;-18 3;0 0" dur="7s" repeatCount="indefinite"/>
+  </path>
+  <path d="M-20 251 C100 227 155 272 260 242 S440 228 535 254 S760 277 930 243"
+        fill="none" stroke="#666" stroke-width="17"/>
+  <path d="M-20 246 C95 220 170 263 268 235 S455 220 548 248 S760 269 930 236"
+        fill="none" stroke="#eee" stroke-width="3" opacity=".85"/>
+</g>
+</svg>
