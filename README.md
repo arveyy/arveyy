@@ -1,27 +1,34 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/arveyy/arveyy/main/assets/arvy_starry_banner.gif" width="1280" height="250">
 </p>
+
 4th Year Bachelor of Science in Information Technology
 
 ## TECH STACK
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/arveyy/arveyy/main/assets/tech_stack_blackhole_banner.gif" width="1280" height="640">
+  <img src="https://skillicons.dev/icons?i=c,cs,java,js,html,php,ts,vercel,dotnet,mysql,sqlite,figma,git,github,arduino,python,css,windows" height="200" />
 </p>
 
-#
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=arveyy&theme=swift&hide_border=false&include_all_commits=false&count_private=false" />
-  <br/>
-  <img src="https://nirzak-streak-stats.vercel.app/?user=arveyy&theme=swift&hide_border=false" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arveyy&theme=swift&hide_border=false&include_all_commits=false&count_private=false&layout=compact" />
+  <img src="https://img.shields.io/badge/Render-%2346E3B7.svg?style=for-the-badge&logo=render&logoColor=white" height="55">
+  &nbsp;
+  <img src="https://img.shields.io/badge/Cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black" height="55">
+  &nbsp;
+  <img src="https://img.shields.io/badge/Swagger-%23Clojure.svg?style=for-the-badge&logo=swagger&logoColor=white" height="55">
+  &nbsp;
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" height="55">
+  &nbsp;
+  <img src="https://img.shields.io/badge/Adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white" height="55">
+  &nbsp;
+  <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white" height="200">
 </p>
+
 
 ##
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
+
+![](https://quotes-github-readme.vercel.app/api?type=horizontal\&theme=dark)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/arveyy/arveyy/main/assets/blinking_stars_banner.gif" width="1280" height="250">
 </p>
-
-
