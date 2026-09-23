@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/arveyy/arveyy/main/assets/arvy_starry_banner.gif" width="1280" height="250">
-</p>
+<div align="center">
+  <img width="100%" src="./assets/Arvy_Sabalande_Starry_Night_GITHUB_START_300px(1).svg" alt="Arvy Sabalande"/>
+</div>
 
 4th Year Bachelor of Science in Information Technology
 
@@ -29,6 +29,6 @@
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal\&theme=dark)
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/arveyy/arveyy/main/assets/blinking_stars_banner.gif" width="1280" height="250">
-</p>
+<div align="center">
+  <img width="100%" src="./assets/Arvy_Sabalande_Starry_Night_GITHUB_OUTRO_300px(1).svg" alt="Arvy Sabalande"/>
+</div>
