@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="100%" height="300" preserveAspectRatio="none">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#050505"/><stop offset=".5" stop-color="#202020"/><stop offset="1" stop-color="#090909"/>
+  </linearGradient>
+  <radialGradient id="moon"><stop offset="0" stop-color="#fff"/><stop offset=".55" stop-color="#eee"/><stop offset="1" stop-color="#aaa" stop-opacity="0"/></radialGradient>
+  <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#777"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#555"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
+  <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="white"/><stop offset=".68" stop-color="white"/><stop offset="1" stop-color="black"/>
+  </linearGradient>
+  <mask id="bottomFade">
+    <rect width="900" height="180" fill="url(#fade)"/>
+  </mask>
+  <clipPath id="waveClip">
+    <path d="M0 0H900V122
+      C820 142 750 126 675 133
+      C585 142 515 157 425 143
+      C330 128 270 139 190 151
+      C115 162 55 143 0 151Z"/>
+  </clipPath>
+</defs><g transform="scale(1 1.6666667)">
+
+<g mask="url(#bottomFade)" clip-path="url(#waveClip)">
+  <rect width="900" height="180" fill="url(#sky)"/>
+
+  <!-- animated Van-Gogh-like sweeping strokes -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M-40 95 C130 5 260 35 350 85 S610 170 940 52" stroke="#aaa" stroke-width="13" opacity=".25">
+      <animateTransform attributeName="transform" type="translate" values="0 0;18 -4;0 0" dur="7s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-50 118 C120 42 250 70 345 112 S620 178 940 82" stroke="#fff" stroke-width="5" opacity=".28">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-15 3;0 0" dur="6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M140 28 C210 74 300 48 365 20 C430 -8 515 12 570 48" stroke="#ddd" stroke-width="7" opacity=".20">
+      <animateTransform attributeName="transform" type="rotate" values="0 450 80;2 450 80;0 450 80" dur="8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- stars -->
+  <g fill="#fff">
+    <circle cx="92" cy="42" r="2.5"/><circle cx="180" cy="76" r="1.8"/>
+    <circle cx="265" cy="35" r="2"/><circle cx="395" cy="54" r="2.2"/>
+    <circle cx="515" cy="31" r="1.8"/><circle cx="625" cy="67" r="2.5"/>
+    <circle cx="720" cy="36" r="2"/><circle cx="840" cy="70" r="2.4"/>
+    <circle cx="330" cy="100" r="1.6"/><circle cx="565" cy="100" r="1.5"/>
+  </g>
+  <g fill="none" stroke="#fff" stroke-linecap="round">
+    <path d="M130 53v12M124 59h12" stroke-width="1.5"/>
+    <path d="M460 25v15M452.5 32.5h15" stroke-width="1.4"/>
+    <path d="M780 76v13M773.5 82.5h13" stroke-width="1.5"/>
+  </g>
+
+  <!-- moon -->
+  <circle cx="790" cy="72" r="34" fill="#aaa" opacity=".22" filter="url(#glow)"/>
+  <circle cx="790" cy="72" r="25" fill="url(#moon)"/>
+  <circle cx="782" cy="64" r="3" fill="#aaa" opacity=".35"/>
+  <circle cx="800" cy="78" r="4" fill="#999" opacity=".22"/>
+
+  <!-- title -->
+  <text x="450" y="82" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="40" font-weight="700" fill="#fff">Arvy Sabalande</text>
+  <text x="450" y="110" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="15" font-weight="600" fill="#ddd">Turning Caffeine into Code</text>
+</g>
+
+<!-- separate transparent-looking moving wave layers at the bottom -->
+<path d="M0 139 C120 154 185 139 285 148 S455 174 565 151 S770 130 900 153"
+      fill="none" stroke="#fff" stroke-opacity=".22" stroke-width="9">
+  <animateTransform attributeName="transform" type="translate" values="-25 0;25 0;-25 0" dur="9s" repeatCount="indefinite"/>
+</path>
+<path d="M0 153 C105 169 205 149 300 158 S485 179 610 157 S790 145 900 162"
+      fill="none" stroke="#fff" stroke-opacity=".10" stroke-width="6">
+  <animateTransform attributeName="transform" type="translate" values="20 0;-20 0;20 0" dur="11s" repeatCount="indefinite"/>
+</path>
+</g></svg>
